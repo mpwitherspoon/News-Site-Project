@@ -1,0 +1,28 @@
+h1 {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.container {
+  display: flex;
+  border: 1px solid black;
+}
+
+#image {
+  position:relative;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+li {
+  display: inline-block;
+  text-decoration: underline;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
