@@ -31,7 +31,6 @@ li {
 
 .containerII {
   display: flex;
-  border: 2px solid black;
   flex-direction: column;
   width: 630px;
 }
@@ -79,4 +78,36 @@ div.right {
   color: white;
   height: 300px;
   text-align: center;
+}
+
+#image3 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+#image4 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+.order2 {
+  order: 2;
+}
+
+.order1 {
+  order: 1;
+}
+
+.order3 {
+  order: 3;
 }
