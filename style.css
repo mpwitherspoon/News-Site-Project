@@ -102,6 +102,7 @@ div.right {
 
 .order2 {
   order: 2;
+  width: 275px;
 }
 
 .order1 {
@@ -110,4 +111,9 @@ div.right {
 
 .order3 {
   order: 3;
+  width: 275px;
+}
+
+main {
+  display: flex;
 }
