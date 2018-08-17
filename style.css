@@ -25,4 +25,58 @@ li {
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.containerII {
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+  width: 630px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+div.parentright {
+  width: 1150px;
+}
+
+div.right {
+  float: right;
+}
+
+.containerIII {
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+  width: 300px;
+}
+
+.containerIV {
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+  width: 240px;
+}
+
+#image1 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  height: 250px;
+}
+
+#image2 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
 }
